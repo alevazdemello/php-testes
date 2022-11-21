@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo do Valor Informado</title>
+</head>
+
+<body>
+    <h1>Calculo do Valor Informado</h1>
+    <div>
+        <form method="get" action="page.php">
+            Número: <input type="number" name="num"><br /><br />
+            <br />
+            <fieldset>
+                <legend>Informe o tipo de cálculo:</legend>
+                <input type="radio" value="dobro" name="calculo" />Dobro
+                <input type="radio" value="cubo" name="calculo" />Cubo
+                <input type="radio" value="raiz" name="calculo" />Raiz Quadrada
+            </fieldset>
+            <br /><br />
+
+            <input type="submit" value="Calcular" />
+        </form>
+    </div>
+</body>
+
+</html>
